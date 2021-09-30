@@ -16,7 +16,11 @@
 
       <footer>
         <div class="footer">
-          
+          <a
+            href="https://jrpg.com/"
+            onclick="window.parent.location.href='https://jrpg.com/'"
+            >WebGL Tools for Unity</a
+          >
         </div>
       </footer>
     </div>
@@ -29,11 +33,11 @@
         }
 
         var buildUrl = "Build";
-      var loaderUrl = buildUrl +  "/5donhora-.loader.js";
+      var loaderUrl = buildUrl +  "/horror.loader.js";
       var config = {
-          dataUrl: buildUrl + "/5donhora-.data.gz",
-          frameworkUrl: buildUrl + "/5donhora-.framework.js.gz",
-          codeUrl: buildUrl + "/5donhora-.wasm.gz",
+          dataUrl: buildUrl + "/horror.data.gz",
+          frameworkUrl: buildUrl + "/horror.framework.js.gz",
+          codeUrl: buildUrl + "/horror.wasm.gz",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "nito",
           productName: "hora-",
